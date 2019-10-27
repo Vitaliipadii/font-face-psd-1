@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'PlayfairDisplay';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/PlayfairDisplay-Regular.woff2)
+    url(/fonts/PlayfairDisplay-Bold.woff2);
+}
+@font-face {
+    font-family: 'MyriadPro';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/MyriadPro-Regular.woff2);
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/Lato-Light.woff2)
+         url(/fonts/Lato-Bold.woff2);
+}
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 42px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+main {
+    max-width: 100%;
+}
+.wrapper {
+    padding: 240px 120px;
+    position: relative;
+    line-height: 35px;
+}
+.wrapper .big-let {
+    width: 70px;
+    height: 85px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display';
+    box-sizing: border-box;
+    font-size: 125px;
+    position: sticky;
+    float: left;
+    margin: 10px 32px 0 0;
+}
+.wrapper h1 {
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+    padding: 0 0 30px 0;
+}
+p {
+    font-family: 'MyriadPro';
+    font-style: normal;
+    color: #707070;
+
+}
+blockquote {
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: italic;
+    color: #707070;
+}
+blockquote::before {
+    content: '"';
+    font-size: 60px;
+    padding: 0 15px 0 0;
+
+}
+ button {
+     width: 265px;
+     height: 68px;
+     border: 1px solid #EAA258;
+     color: #EAA258;
+     background-color: #ffffff;
+     font-size: 24px;
+     font-family: 'MyriadPro';
+}
